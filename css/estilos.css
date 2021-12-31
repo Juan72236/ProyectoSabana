@@ -1,11 +1,11 @@
 #lblUsuario{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 170%;
+    font-size: 140%;
     font-style: normal;
     font-weight: 500;
 }
 #txtUsuario{
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: gray;
     width: 200px;
     height: 25px;
@@ -14,12 +14,12 @@
 }
 #lblContraseña{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 170%;
+    font-size: 140%;
     font-style: normal;
     font-weight: 500;
 }
 #txtContraseña{
-    border-radius: 10px;
+    border-radius: 5px;
     border-color: gray;
     width: 200px;
     height: 25px;
@@ -51,4 +51,17 @@
 }
 body{
     background-color: antiquewhite;
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#lblLogin{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lightsalmon;
+    padding: 17px;
+    width: 300px;
+    height: 20px;
+    text-align: center;
+
 }
