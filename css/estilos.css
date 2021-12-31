@@ -1,0 +1,43 @@
+#lblUsuario{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 170%;
+    font-style: normal;
+    font-weight: 500;
+}
+#txtUsuario{
+    border-radius: 10px;
+    border-color: gray;
+    width: 200px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+}
+#lblContraseña{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 170%;
+    font-style: normal;
+    font-weight: 500;
+}
+#txtContraseña{
+    border-radius: 10px;
+    border-color: gray;
+    width: 200px;
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%; 
+}
+#btnIngresar{
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 100px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.login{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 17px;
+    width: 300px;
+    background-color: lightgreen;
+}
