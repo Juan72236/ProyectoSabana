@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Pablo Vargas Hernandez">
+    <meta name="keywords" lang="es" content="formulario, registro empleados, sbna, surtiviveres">
+    <title>Usuarios</title>
+    <link rel="stylesheet" href="css/estilosRegistro.css">
+</head>
+<body>
+    <header>
+        <h1 id="principalTittle"><center><img id="logo" src="logooficialsabana.png" alt="LogoEmpresa">REGISTRO DE USUARIOS</center></h1>
+    </header>
+    <section id="formulario">
+        <center>
+            <form action="">
+                <fieldset>
+                    <legend>
+                        <h3 id="TextoBorde">
+                            Registrar Usuario
+                        </h3>
+                    </legend>
+                    <p>
+                        <label for="cedula">Cédula*:</label><br>
+                        <input type="text" id="cedula" placeholder="Cédula sin signos de puntuacion" size="50px" minlength="3" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="nombres">Nombres*:</label><br>
+                        <input type="text" id="nombres" size="50px" minlength="3" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="apellidos">Apellidos*:</label><br>
+                        <input type="text" id="apellidos" size="50px" minlength="3" maxlength="50" required>
+                    </p>
+                    <p>
+                        <label for="contraseña">Contraseña*:</label><br>
+                        <input type="password" id="contraseña" size="50px" minlength="3" maxlength="50" required>
+                    </p>
+                    <p id="textoRegistro">
+                        Presione el boton para registrar su nuevo usuario. A continuación presione volver y ya podrá ingresar su horario
+                    </p>
+                    <p>
+                        <button type="button" class="botonRegistrarse">Registrarse</button> 
+                        <a href="Formulario.html"><button type="button" class="botonVolver">Volver</button> </a>
+                    </p>    
+                </fieldset>
+            </form>    
+        </center>
+    </section>
+    <footer>
+        <center>
+            <small>
+                <p>
+                    Aplicacion web para el control de los horarios de ingreso y salida de los empleados de su empresa.
+                </p>
+                <p>
+                    Desarrollada por: <i>JPs'software solutions</i> 
+                </p>
+                <p>
+                    Ingeniero: Juan Pablo Vargas Hernandez, FullStack Software Developer
+                </p>
+                <p>
+                    Contáctenos: <img id="Whatsapp" src="580b57fcd9996e24bc43c543.png" alt="LogoWhatsapp" width="1.5%" height="1.5%"> 3186259804 <img src="3b21c7efd2ba9c119fb8d361acacc31d.png" alt="LogoInstagram" width="1.5%" height="1.5%"> @JPs'Sofware_solutions
+                </p>
+            </small>
+        </center>
+    </footer>
+</body>
+</html>
